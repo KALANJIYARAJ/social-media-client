@@ -7,6 +7,7 @@ import Register from "./pages/register/Register";
 function App() {
   return (
     <BrowserRouter>
+      <div>Welcome</div>
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
