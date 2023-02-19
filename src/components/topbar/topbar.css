@@ -14,7 +14,7 @@
 }
 
 .logo {
-  font-style: 24px;
+  font-size: 24px;
   margin-left: 20px;
   font-weight: bold;
   color: white;
@@ -24,6 +24,7 @@
 .topbarCenter {
   flex: 5;
 }
+
 .searchbar {
   width: 100%;
   height: 30px;
@@ -56,7 +57,7 @@
 }
 
 .topbarLink {
-  margin-left: 10px;
+  margin-right: 10px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -66,7 +67,7 @@
 }
 
 .topbarIconItem {
-  margin-left: 15px;
+  margin-right: 15px;
   cursor: pointer;
   position: relative;
 }

@@ -67,13 +67,6 @@
   cursor: pointer;
 }
 
-.heartIcon {
-  width: 24px;
-  height: 24px;
-  margin-right: 5px;
-  cursor: pointer;
-}
-
 .postLikeCounter {
   font-size: 15px;
 }
