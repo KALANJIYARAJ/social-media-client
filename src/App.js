@@ -5,14 +5,14 @@ import Profile from "./pages/profile/Profile";
 import Register from "./pages/register/Register";
 
 function App() {
+  const user = "Raj";
+
   return (
     <BrowserRouter>
-      <div>Welcome</div>
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
+        <Route path="/" element={user ? <Profile /> : <Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
-        <Route path="/profile/:username" element={<Profile />}></Route>
       </Routes>
     </BrowserRouter>
   );
